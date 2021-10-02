@@ -15,7 +15,7 @@ def after_request(response):
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
-        "This is the" : "Notice API"
+        "hello" : "world"
     })
 
 
